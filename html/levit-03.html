@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>levit-03</title>
+  <link rel="stylesheet" type="text/css" href="levit-03.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<a href="./levit-04.html"><body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000.49">
+  <g id="red">
+    <circle class="cls-3" cx="300" cy="300" r="200"/>
+    <path class="cls-3" d="M950,100c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+    <path class="cls-3" d="M1800,299.51c-110.46,0-200,89.54-200,200s89.54,200,200,200m0-50c-82.84,0-150-67.16-150-150s67.16-150,150-150"/>
+    <path class="cls-3" d="M500,1000c110.46,0,200-89.54,200-200s-89.54-200-200-200-200,89.54-200,200,89.54,200,200,200Zm0-350c82.84,0,150,67.16,150,150s-67.16,150-150,150-150-67.16-150-150,67.16-150,150-150Z"/>
+    <path class="cls-3" d="M1300,1000c110.46,0,200-89.54,200-200s-89.54-200-200-200-200,89.54-200,200,89.54,200,200,200Zm0-350c82.84,0,150,67.16,150,150s-67.16,150-150,150-150-67.16-150-150,67.16-150,150-150Z"/>
+    <path class="cls-3" d="M700,200c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+    <circle class="cls-3" cx="700" cy="400" r="50"/>
+    <circle class="cls-3" cx="1400" cy="500" r="50"/>
+    <path class="cls-3" d="M1800,550c-27.61,0-50-22.39-50-50s22.39-50,50-50v100Z"/>
+  </g>
+  <g id="yellow">
+    <path class="cls-2" d="M400,0c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200S510.46,0,400,0Zm0,350c-82.84,0-150-67.16-150-150S317.16,50,400,50s150,67.16,150,150-67.16,150-150,150Z"/>
+    <path class="cls-2" d="M1500,99.51c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+    <circle class="cls-2" cx="600" cy="700" r="200"/>
+    <circle class="cls-2" cx="100" cy="900" r="50"/>
+    <circle class="cls-2" cx="1600" cy="700" r="50"/>
+    <path class="cls-2" d="M1000,400c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+  </g>
+  <g id="blue">
+    <path class="cls-1" d="M200,400C89.54,400,0,489.54,0,600s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+    <path class="cls-1" d="M1600,600.49c-110.46,0-200,89.54-200,200s89.54,200,200,200,200-89.54,200-200-89.54-200-200-200Zm0,350c-82.84,0-150-67.16-150-150s67.16-150,150-150,150,67.16,150,150-67.16,150-150,150Z"/>
+    <circle class="cls-1" cx="900" cy="700" r="200"/>
+    <path class="cls-1" d="M1200,500c110.46,0,200-89.54,200-200s-89.54-200-200-200-200,89.54-200,200,89.54,200,200,200Zm0-350c82.84,0,150,67.16,150,150s-67.16,150-150,150-150-67.16-150-150,67.16-150,150-150Z"/>
+    <circle class="cls-1" cx="200" cy="600" r="50"/>
+    <circle class="cls-1" cx="1500" cy="300" r="50"/>
+    <circle class="cls-1" cx="700" cy="100" r="50"/>
+  </g>
+</svg>
+
+<div class="naslov-blue">
+  <h1>OTVORENOST LEVITA UKAZUJE NA RAZNOVRSNOST DRUGIH INTERPRETACIJA.</h1>
+</div>
+
+<div class="naslov-yellow">
+  <h1>SVI GLEDAMO SVET KROZ DRUGAČIJI OBJEKTIV.</h1>
+</div>
+
+<div class="naslov-red">
+  <h1>“SOME PLANS WOULD REQUIRE MILLIONS OF VARIATIONS, 
+  <br>AND SOME A LIMITED NUMBER, BUT BOTH ARE FINITE. 
+  <br>OTHER PLANS IMPLY INFINITY.”
+</h1>
+</div>
+
+<script>
+    $(".naslov-blue").mouseover(function(){
+      console.log("hover in");
+      $(".cls-1").css("fill", "#0074FF")
+  	  $(".cls-1").css("opacity", "1");
+    });
+
+    $(".naslov-blue").mouseout(function(){
+      console.log("hover out");
+      $(".cls-1").css("fill", "#ffffff")
+  	  $(".cls-1").css("opacity", "0");
+    });
+
+    $(".naslov-yellow").mouseover(function(){
+      console.log("hover in");
+      $(".cls-1").css("fill", "#FFBC00")
+      $(".cls-1").css("opacity", "1");
+    });
+
+    $(".naslov-yellow").mouseout(function(){
+      console.log("hover out");
+      $(".cls-1").css("fill", "#ffffff");
+      $(".cls-1").css("opacity", "0");
+    });
+
+    $(".naslov-red").mouseover(function(){
+      console.log("hover in");
+      $(".cls-1").css("fill", "#FF0C00");
+      $(".cls-1").css("opacity", "1")
+    });
+
+    $(".naslov-red").mouseout(function(){
+      console.log("hover out");
+      $(".cls-1").css("fill", "#FFFFFF")
+      $(".cls-1").css("opacity", "0")
+    });
+
+</script>
+
+</body>
+</a>
+</html>

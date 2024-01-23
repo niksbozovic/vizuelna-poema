@@ -1,0 +1,58 @@
+.ibm-plex mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #0074FF;
+  overflow: hidden;
+}
+
+.naslov-blue {
+  position: fixed;
+  right: 0vw;
+  bottom: 55vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 0;
+  z-index: 2;
+}
+
+.naslov-yellow {
+  position: fixed;
+  right: 0vw;
+  bottom: 50vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 0;
+  z-index: 2;
+}
+
+.naslov-red {
+  position: fixed;
+  right: 0vw;
+  bottom: 45vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 0;
+  z-index: 2;
+}

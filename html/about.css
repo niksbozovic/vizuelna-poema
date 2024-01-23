@@ -1,0 +1,95 @@
+.ibm-plex mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.cls-1 {
+  fill: #0074ff;
+  opacity: 0;
+}
+
+.cls-2 {
+  fill: #ffbc00;
+  opacity: 0;
+}
+
+.cls-3 {
+  fill: #ff0c00;
+  opacity: 0;
+}
+
+.cls-4 {
+  stroke: #0074ff;
+  opacity: 0;
+}
+
+.cls-4, .cls-5, .cls-6 {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 30px;
+}
+
+.cls-5 {
+  stroke: #ff0c00;
+  opacity: 0;
+}
+
+.cls-6 {
+  stroke: #ffbc00;
+  opacity: 0;
+}
+
+.naslov-blue {
+  position: fixed;
+  right: 0vw;
+  bottom: 45vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 1;
+  z-index: 2;
+}
+
+.naslov-yellow {
+  position: fixed;
+  right: 0vw;
+  bottom: 50vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 1;
+  z-index: 2;
+}
+
+.naslov-red {
+  position: fixed;
+  right: 0vw;
+  bottom: 55vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  color: #000000;
+  opacity: 1;
+  z-index: 2;
+}

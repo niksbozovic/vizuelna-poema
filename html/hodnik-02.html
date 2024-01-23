@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>u hodniku 02</title>
+  <link rel="stylesheet" type="text/css" href="hodnik-02.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<a href="./hodnik-03.html"><body>
+<div class="naslov-blue">
+  <h1>JA BIH HTELA KLJUČ OD TOG HODNIKA, ŠTO ME VODI DALJE.</h1>
+</div>
+
+<div class="naslov-yellow">
+  <h1>DALJE OD MOG MOZGA, MOLIM TE JOŠ DALJE.</h1>
+</div>
+
+<div class="naslov-red">
+  <h1>NIJE DOVOLJNO DALEKO, NIKAD NIJE DOVOLJNO DALEKO.</h1>
+</div>
+
+<script>
+    $(".naslov-blue").mouseover(function(){
+      console.log("hover in");
+      $(".naslov-blue").css("fill", "#000000");
+      $(".naslov-blue").css("opacity", "1");
+    });
+
+    $(".naslov-blue").mouseout(function(){
+      console.log("hover out");
+      $(".naslov-blue").css("fill", "#ffffff");
+  	  $(".naslov-blue").css("opacity", "0%");
+    });
+
+    $(".naslov-yellow").mouseover(function(){
+      console.log("hover in");
+      $(".naslov-yellow").css("fill", "#000000");
+      $(".naslov-yellow").css("opacity", "1");
+    });
+
+    $(".naslov-yellow").mouseout(function(){
+      console.log("hover out");
+      $(".naslov-yellow").css("fill", "#ffffff");
+      $(".naslov-yellow").css("opacity", "0%");
+    });
+
+    $(".naslov-red").mouseover(function(){
+      console.log("hover in");
+      $(".naslov-red").css("fill", "#000000");
+      $(".naslov-red").css("opacity", "1");
+    });
+
+    $(".naslov-red").mouseout(function(){
+      console.log("hover out");
+      $(".naslov-red").css("fill", "#ffffff");
+      $(".naslov-red").css("opacity", "0%");
+    });
+</script>
+</body>
+</a>
+</html>

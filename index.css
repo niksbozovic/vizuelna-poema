@@ -1,0 +1,47 @@
+.ibm-plex mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.cls-1 {
+		fill: #000000;
+		opacity: 0;
+	}
+
+	.cls-1:hover {
+		fill: #FFFFFF;
+		opacity: 1;
+	}
+
+
+#Layer_1 {
+    height: 40vh;
+    padding: 15% 40% 15% 40%;
+    position: relative;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.naslov {
+	position: fixed;
+	right: 0vw;
+	bottom: 50vh;
+	width: 100vw;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display:block;
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 10px;
+	color: #000000;
+	opacity: 1;
+	z-index: 2;
+}

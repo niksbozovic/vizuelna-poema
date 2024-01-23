@@ -49,7 +49,7 @@ body {
 .naslov-blue {
   position: fixed;
   right: 0vw;
-  bottom: 45vh;
+  bottom: 55vh;
   width: 100vw;
   text-align: center;
   justify-content: center;
@@ -81,7 +81,7 @@ body {
 .naslov-red {
   position: fixed;
   right: 0vw;
-  bottom: 55vh;
+  bottom: 45vh;
   width: 100vw;
   text-align: center;
   justify-content: center;
